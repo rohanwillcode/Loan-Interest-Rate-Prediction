@@ -21,7 +21,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 # ─────────────────────────────────────────────
 # 1. LOAD DATA
 # ─────────────────────────────────────────────
-df = pd.read_csv("../data/loan_applications.csv")
+df = pd.read_csv("exercise_1\data\loan_applications.csv")
 print("Shape:", df.shape)
 print(df.dtypes)
 print(df.head())
